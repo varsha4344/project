@@ -1,0 +1,42 @@
+iframe{
+    width: 100%;
+}
+.touch{
+    margin-top: 50px;
+    text-align: center;
+}
+.touch p{
+    margin-top: 20px;
+    line-height: 40px;
+    font-size: 20px;
+}
+.main{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+   
+}
+
+.main p{
+    line-height: 40px;
+  font-size:20px;
+}
+.main .form input{
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: 1px solid rgb(185, 183, 183);
+    outline: none;
+}
+.main .form .required{
+    display: flex;
+    gap: 20px;
+}
+.main .form .required input{
+ padding: 10px 200px 10px 20px;
+}
+.main .form .subject{
+    padding: 10px 670px 10px 20px;
+}
+ .main .form .msg{
+     padding: 10px 670px 300px 20px;
+ }
