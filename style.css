@@ -47,32 +47,25 @@ nav ul .icons svg {
     gap: 30px;
 }
 .powermedicine {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
 }
-
 .powermedicine .power {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
-
-    margin: 10px;
-    width: 850px;
-    border-radius: 50px;
-    margin-left: 50px;
+    border-radius: 50px;  
 }
-
 .powermedicine .power .para {
     text-align: left;
-    font-size: 30px;
-    margin-right: 50px;
+    font-size: 30px;   
 }
-
 .powermedicine .power .para h3 {
     font-size: 50px;
     font-weight: bold;
 }
-
 .powermedicine .power .para button {
     border: 0;
     outline: none;
@@ -81,22 +74,14 @@ nav ul .icons svg {
     border-radius: 30px;
     cursor: pointer;
 }
-
 .powermedicine .power .para button:hover {
     background-color: blue;
 }
-
 .powermedicine .power img {
     background-color: none;
-    height: 400px;
     border-radius: 40px;
     cursor: pointer;
 }
-
-.powermedicine .power img:hover {
-    height: 410px;
-}
-
 .powermedicine #chayawanprash {
     background-color: rgb(213, 228, 255);
 }
@@ -108,15 +93,17 @@ nav ul .icons svg {
 .cream img {
     height: 150px;
     width: 320px;
-    margin-top: 30%;
+    margin-top: 20%;
 }
 
-.cream {
-    margin-left: 120px;
+.creams {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 
 .cream .p {
-    text-align: center;
     margin-top: 10px;
     font-size: 20px;
 }
@@ -140,9 +127,9 @@ nav ul .icons svg {
     font-size:22px ;
 }
 .cream .first {
+    height: 400px;
+    width: 350px;
     text-align: center;
-    width: 360px;
-    height: 380px;
     cursor: pointer;
     background-color: rgb(226, 223, 223);
     border-radius: 10px;
@@ -160,10 +147,11 @@ nav ul .icons svg {
 .footer{
     margin-top: 100px;
     background-color: #ccccce;
+   display: flex;
+   justify-content: center;
 }
 .footer .link{
     margin-top: 100px;
-    margin-left: 150px;
 }
 .footer .link #clinic{
     font-size: 50px;

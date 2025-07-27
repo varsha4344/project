@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,91 +8,107 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="thanks.css">
     <style>
-        .track{
+        .track {
             text-align: center;
             height: 200px;
             background-color: #f0f0f0;
         }
-        
-         .order{
+
+        .order {
             height: 300px;
             margin-top: 50px;
             font-size: 20px;
             width: 100%;
-         }
-         .order .write{
+        }
+
+        .order .write {
             text-align: center;
-         }
-         .order .id{
+        }
+
+        .order .id {
             display: flex;
             justify-content: center;
             align-items: center;
-         }
-         .order .id input{
+        }
+
+        .order .id input {
             font-size: 15px;
-            padding: 15px 500px 15px 20px;
-         }
-         .order button{
-            background-color: rgb(250, 82, 20);
+            padding: 15px 200px 15px 20px;
+        }
+
+        .order .trackbtn {
+            background-color: orangered;
             color: white;
             border: 0;
             width: 100px;
             height: 50px;
+            margin-top: 20px;
             margin-left: 170px;
-         }
+        }
     </style>
 </head>
+
 <body>
     <div class="container-fluid">
-         <div class="row">
+        <div class="row">
             <div class="col-sm-12">
                 <h1 id="mainhead">HARSH MEDICAL AND PHARMA CLINIC</h1>
             </div>
         </div>
-          <nav>
-            <ul class="nav nav-pills  justify-content-around mt-4">
-                <li class="nav-item"><img src="new clinic symbols.webp" alt="logo">Pharma</li>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <nav class="navbar bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="Images/new clinic symbols.webp" alt="Logo" width="30" height="30"
+                                class="d-inline-block align-text-top">
+                            Pharma
+                        </a>
 
-                <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                        aria-expanded="false">Shop</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Product variation</a></li>
-                        <li><a class="dropdown-item" href="#">Cart</a></li>
-                        <li><a class="dropdown-item" href="#">Checkout</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </nav>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
-                        <li><a class="dropdown-item" href="#">My account</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Images</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Shop
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Product Variation</a></li>
+                                <li><a class="dropdown-item" href="#">Checkout</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">My account</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Track Order.html">Track Order</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html" target="_blank">Contact</a>
+                        </li>
                     </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="Track Order.html" target="_blank">Track Order</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#">Images</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html" target="_blank">Contact</a>
-                </li>
-                <li class="nav-item icons"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
-                        fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                        <path
-                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-                        class="bi bi-cart-plus" viewBox="0 0 16 16">
-                        <path
-                            d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z" />
-                        <path
-                            d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
-                    </svg>
-                </li>
-            </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
         </nav>
         <div class="row track">
             <div class="col-sm-12 order">
@@ -101,7 +118,8 @@
         </div>
         <div class="row order">
             <div class="col-sm-12">
-                <p class="write">To track your order please enter your Order ID in the box below and press the "Track" button. 
+                <p class="write">To track your order please enter your Order ID in the box below and press the "Track"
+                    button.
                     This was given to you on your receipt and in the confirmation email you should have received.
                 </p>
                 <div class="row id">
@@ -115,60 +133,77 @@
                     </div>
                 </div>
             </div>
-            <button>Track </button>
+            <div><button class="trackbtn" onclick="openPopup()">Track </button></div>
+            <div class="popup" id="popup">
+                <img src="Images/tick.jpg" alt="tick">
+                <h2>Thank you</h2>
+                <p>Your transaction has been completed successfully. Thanks!!</p>
+                <button type="button" ><a href="index.html" target="_blank">Continue
+                        Shopping</a></button>
+
+            </div>
         </div>
 
         <footer>
-                <div class="row footer">
-                    <div class="col-sm-2 link">
-                        <h3 id="clinic">Clinic</h3>
-                        <p>Our mission is to offer you the best selection of Nordic designs , whether well-established
-                            of
-                            up-and-coming.</p>
-                        <div class="icons">
-                            <a href="https://www.facebook.com/"><img src="fb icon.webp" alt="icon"></a>
-                            <a href="https://www.instagram.com/"><img src="insta icon.webp" id="insta" alt="icon"></a>
-                            <a href="https://web.whatsapp.com/"><img src="whatsapp icon.jpg" alt="icon"></a>
-                            <a href="https://in.linkedin.com/"><img src="linkedin icon.webp" alt="icon"></a>
-                        </div>
-                    </div>
-                    <div class="col-sm-2 link">
-                        <h5>Navigate</h5>
-                        <ul>
-                            <li>Home</li>
-                            <li>Catalog</li>
-                            <li>About</li>
-                            <li>Contact</li>
-                            <li>Journel</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-2 link">
-                        <h5>Informations</h5>
-                        <ul>
-                            <li>Delivery</li>
-                            <li>Return Policy</li>
-                            <li>Team</li>
-                            <li>Store Locations</li>
-                            <li>F.A.Qs</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-2 link">
-                        <h5>Company</h5>
-                        <ul>
-                            <li>Delivery</li>
-                            <li>Return Policy</li>
-                            <li>Team </li>
-                            <li>Store Locations</li>
-                            <li>F.A.Qs</li>
-                        </ul>
+            <div class="row footer">
+                <div class="col-sm-2 link">
+                    <h3 id="clinic">Clinic</h3>
+                    <p>Our mission is to offer you the best selection of Nordic designs , whether well-established
+                        of
+                        up-and-coming.</p>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/"><img src="Images/fb icon.webp" alt="icon"></a>
+                        <a href="https://www.instagram.com/"><img src="Images/insta icon.webp" id="insta"
+                                alt="icon"></a>
+                        <a href="https://web.whatsapp.com/"><img src="Images/whatsapp icon.jpg" alt="icon"></a>
+                        <a href="https://in.linkedin.com/"><img src="Images/linkedin icon.webp" alt="icon"></a>
                     </div>
                 </div>
-                <div class="row" id="footer">
-                    <div class="col-sm-12">
-                        <p><b>&copy</b>2025harshOnlineClinic.Developed by varsha.</p>
-                    </div>
+                <div class="col-sm-2 link">
+                    <h5>Navigate</h5>
+                    <ul>
+                        <li>Home</li>
+                        <li>Catalog</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li>Journel</li>
+                    </ul>
                 </div>
-            </footer>
+                <div class="col-sm-2 link">
+                    <h5>Informations</h5>
+                    <ul>
+                        <li>Delivery</li>
+                        <li>Return Policy</li>
+                        <li>Team</li>
+                        <li>Store Locations</li>
+                        <li>F.A.Qs</li>
+                    </ul>
+                </div>
+                <div class="col-sm-2 link">
+                    <h5>Company</h5>
+                    <ul>
+                        <li>Delivery</li>
+                        <li>Return Policy</li>
+                        <li>Team </li>
+                        <li>Store Locations</li>
+                        <li>F.A.Qs</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row" id="footer">
+                <div class="col-sm-12">
+                    <p><b>&copy</b>2025harshOnlineClinic.Developed by varsha.</p>
+                </div>
+            </div>
+        </footer>
     </div>
+    <script>
+        let popups = document.getElementById("popup");
+        function openPopup() {
+            popups.classList.add("open-popup")
+        }
+       
+    </script>
 </body>
+
 </html>
