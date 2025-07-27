@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#mainhead {
+    text-align: center;
+    color: blue;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+nav {
+    background-color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul li img {
+    width: 60px;
+    height: 60px;
+}
+
+nav ul li a {
+    --bs-nav-link-color: #171a1f;
+}
+
+nav ul .icons svg {
+    margin: 0px 20px;
+}
+
+.slider div img {
+    height: 60vh;
+}
+
+.services {
+    font-size: 20px;
+}
+
+.services h5 {
+    font-size: 30px;
+    font-weight: 600;
+}
+.services .side{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.powermedicine {
+    text-align: center;
+}
+
+.powermedicine .power {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+
+    margin: 10px;
+    width: 850px;
+    border-radius: 50px;
+    margin-left: 50px;
+}
+
+.powermedicine .power .para {
+    text-align: left;
+    font-size: 30px;
+    margin-right: 50px;
+}
+
+.powermedicine .power .para h3 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.powermedicine .power .para button {
+    border: 0;
+    outline: none;
+    padding: 10px 40px;
+    margin-top: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.powermedicine .power .para button:hover {
+    background-color: blue;
+}
+
+.powermedicine .power img {
+    background-color: none;
+    height: 400px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.powermedicine .power img:hover {
+    height: 410px;
+}
+
+.powermedicine #chayawanprash {
+    background-color: rgb(213, 228, 255);
+}
+
+.powermedicine #protinex {
+    background-color: rgb(226, 223, 223);
+}
+
+.cream img {
+    height: 150px;
+    width: 320px;
+    margin-top: 30%;
+}
+
+.cream {
+    margin-left: 120px;
+}
+
+.cream .p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.cream .p .name {
+    font-size: 25px;
+    font-weight: 600;
+}
+.cream .first .btn{
+    background-color: rgb(254, 88, 28);
+    font-size: 20px;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: #f0f0f0;
+    margin-top: 20px;
+}
+.cream .first .btn:hover{
+    background-color: orangered;
+    font-size:22px ;
+}
+.cream .first {
+    text-align: center;
+    width: 360px;
+    height: 380px;
+    cursor: pointer;
+    background-color: rgb(226, 223, 223);
+    border-radius: 10px;
+}
+.cream .first:hover{
+    background-color: rgb(213, 228, 255);
+}
+.creams #new {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.footer{
+    margin-top: 100px;
+    background-color: #ccccce;
+}
+.footer .link{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.footer .link #clinic{
+    font-size: 50px;
+}
+.footer .link .icons img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+.footer .link .icons #insta{
+    width: 80px;
+    height: 80px;
+    margin: -10px;
+}
+.footer .link p{
+    margin-top: 20px;
+    font-size: 22px;
+}
+.footer .link h5{
+    margin-left: 25px;
+    font-size: 30px;
+}
+.footer .link ul{
+    margin-top: 20px;
+    font-size: 23px;
+    
+}
+.footer .link ul li{
+    list-style: none;
+    line-height: 60px;
+    cursor: pointer;
+}
+footer #footer{
+    font-size: 20px;
+    text-align: center;
+  background-color: #b0b0b1;
+}
