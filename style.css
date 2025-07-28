@@ -24,7 +24,10 @@ nav ul li img {
 nav ul li a {
     --bs-nav-link-color: #171a1f;
 }
-
+nav .tick a:hover{
+ background-color: blue;
+ color: white;
+}
 nav ul .icons svg {
     margin: 0px 20px;
 }
