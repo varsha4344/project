@@ -70,7 +70,7 @@ nav ul .icons svg {
     border: 0;
     outline: none;
     padding: 10px 40px;
-    margin-top: 50px;
+    margin-top: 40px;
     border-radius: 30px;
     cursor: pointer;
 }
@@ -91,19 +91,13 @@ nav ul .icons svg {
 }
 
 .cream img {
-    height: 150px;
-    width: 320px;
+   height: 150px;
+   width: 320px;
     margin-top: 20%;
 }
 
-.creams {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-}
-
 .cream .p {
+    text-align: center;
     margin-top: 10px;
     font-size: 20px;
 }
@@ -127,8 +121,8 @@ nav ul .icons svg {
     font-size:22px ;
 }
 .cream .first {
-    height: 400px;
-    width: 350px;
+    /* height: 400px;
+    width: 350px; */
     text-align: center;
     cursor: pointer;
     background-color: rgb(226, 223, 223);
