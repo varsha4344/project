@@ -15,7 +15,22 @@ nav {
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+.nav-bar {
+    height: 70px;
+    position: sticky;
+    z-index: 998;
+    top: 0px;
+}
+.nav-bar .icon{
+  font-weight: 700;
+}
+.nav-bar .icon a{
+    font-size: 30px;
+}
+.navbar-nav .nav-item {
+    font-size: 20px;
+    font-weight: 600;
+}
 nav ul li img {
     width: 60px;
     height: 60px;
